@@ -1,0 +1,9 @@
+<html>
+
+<h1>This is the home page</h1>
+   <form  method="POST" autocomplete="off">
+          {% csrf_token %}
+          {{ form.as_p }}
+        <button type="submit" value="register">Register</button>
+   </form>
+</html>
